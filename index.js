@@ -85,7 +85,7 @@ async function connectToWA() {
         connectToWA();
       }
     } else if (connection === 'open') {
-      console.log('✅ DANUWA-MD connected to WhatsApp');
+      console.log('✅ RDX-PODDA-MD connected to WhatsApp');
 
       const up = `RDX-PODDA-MD connected ✅\n\nPREFIX: ${prefix}`;
       await poddah.sendMessage(ownerNumber[0] + "@s.whatsapp.net", {
